@@ -5,7 +5,7 @@
 //Data type 
 //nn ss bb u
     // number
-    // null(null means not 0 it means completely null )
+    // null(null means not 0 it means completely null/empty )
     // symbol
     // string=""
     // boolean=true/false
@@ -37,8 +37,8 @@
 
 
 //********************************************************** */
-// Stack(primitive ) ,Heap(non primitive)
-
+// Stack(primitive ) ,    Heap(non primitive)
+//copy and paste          give the reference
 
 let myname="shaqib"
 
@@ -52,7 +52,7 @@ secondname=" hussain"
 //note
 //stack(copy of value not address)
 /* as this is stack memroy formate in this only the copy of the value is assign to secondname(here) not the reference 
-so the value inside he myname is not change.
+so the value inside the myname is not change.
 */
 
 
@@ -71,7 +71,7 @@ usertwo.email="shaqib@gmail.com"
 /* in this case as the heap memory formate is  use so in this formate the reference is use 
 so when you change the the value is change in both
 here when usertwo = userone this means the address of userone is given to usertwo so when the 
-user one change any this both will access the same address the fot both the value is change
+user one change any this both will access the same address the for both the value is change
 */
 
 
