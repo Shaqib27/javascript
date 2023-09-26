@@ -19,10 +19,24 @@ const user={
 // console.log(user["full name"])
 // console.log(user[mysym])
 // console.log(typeof mysym);
-console.log(user["email"])
-user.email="mdhsaqibhussain5@gmail.com"
-console.log(user["email"])
-Object.freeze(user) //this will freez the value of user and not allow to change 
-user.email="jsjahs@google.com"
-console.log(user["email"])
+// console.log(user["email"])
+// user.email="mdhsaqibhussain5@gmail.com"
+// console.log(user["email"])
+// Object.freeze(user) //this will freez the value of user and not allow to change 
+// user.email="jsjahs@google.com"
+// console.log(user["email"])
 
+// user.greeting=function(){
+//     console.log("hello js user");
+// }
+// user.greetingtwo=function(){
+//     console.log(`hello js user,${this.name}`);
+// }
+
+// console.log(user.greeting());
+// console.log(user.greetingtwo());
+
+
+// const tinderuser=new Object() //ye singleton object hai
+// const tinderuser={}non singleton object
+console.log(tinderuser);
