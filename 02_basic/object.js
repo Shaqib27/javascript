@@ -39,4 +39,64 @@ const user={
 
 // const tinderuser=new Object() //ye singleton object hai
 // const tinderuser={}non singleton object
-console.log(tinderuser);
+// console.log(tinderuser);
+
+const regularuser ={
+    email:"shaqib246@gmail.com",
+    name:{
+        firstname:{
+            fname:"shqib",
+            lastname:{
+                lname:"hussain"
+            }
+        }
+    }
+}
+// console.log(regularuser.email)
+// console.log(regularuser.name.firstname.fname)
+// console.log(regularuser.name.firstname.lastname.lname);
+
+
+//addition of objects
+
+const obj1={
+    1:"a",2:"b",3:"c",4:"d"
+}
+const obj2={
+    5:"e",6:"f",7:"g"
+}
+const obj5={
+    9:"e",6:"f",90:"g"
+}
+const obj3={
+    obj1,obj2
+}
+
+
+// console.log(obj3)
+const obj4=Object.assign(obj1,obj2)
+// const obj6=Object.assign({}(target),obj1,obj2,obj3(all are acts a source ))
+const obj6=Object.assign({},obj1,obj2,obj5)
+const obj7={...obj1,...obj2,...obj5}
+// console.log(obj7)
+// console.log(Object.keys(obj7)) //it will in the array formate 
+// console.log(Object.values(obj7))//same array formate 
+// console.log(obj7.hasOwnProperty('90')) //to check wheter it has 90 or not
+
+
+
+const course={
+    coursename:"javascript",
+    price:999,
+    time:"400min",
+    cousreinstructor:"hitesh"
+}
+// console.log(course.time)
+// console.log(typeof course.time)
+
+const {cousreinstructor}=course //you simply use couresinstructor get the value hites
+console.log(cousreinstructor)
+const {cousreinstructor : teacher}=course //it will also remane if you want
+console.log(teacher)
+
+
