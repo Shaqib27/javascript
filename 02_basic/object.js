@@ -77,8 +77,14 @@ const obj3={
 const obj4=Object.assign(obj1,obj2)
 // const obj6=Object.assign({}(target),obj1,obj2,obj3(all are acts a source ))
 const obj6=Object.assign({},obj1,obj2,obj5)
+
+
 const obj7={...obj1,...obj2,...obj5}
+/*This code creates a new object obj7 that contains all the properties from obj1, obj2, and obj5.
+If there are overlapping properties, the last one encountered will overwrite any previous ones with the same name.*/
 // console.log(obj7)
+
+
 // console.log(Object.keys(obj7)) //it will in the array formate 
 // console.log(Object.values(obj7))//same array formate 
 // console.log(obj7.hasOwnProperty('90')) //to check wheter it has 90 or not
