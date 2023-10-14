@@ -8,14 +8,14 @@ const arr2= new Array(11,22,33,44,55)
 
 //  myarr.push(7)
 //  myarr.pop()
-//  myarr.unshift(34)
-//  myarr.shift() 
+//  myarr.unshift(34)  //methode to add one or more element to the begining of array
+//  myarr.shift() //used to remove and return the first element
 
 
-//  console.log(myarr.includes(9)) 
-//  console.log(myarr.indexOf(88))
+//  console.log(myarr.includes(9)) //it is used to check wether the element is present or not
+//  console.log(myarr.indexOf(88)) //it will give the index number if the item is present 
 
-//  const arr4=myarr.join() //it convert into the string type
+//  const arr4=myarr.join(" ,") //it convert into the string type seprated by ,  .
 //  console.log(arr4)
 
 // console.log("A ",myarr)
@@ -48,7 +48,7 @@ const arr2= new Array(11,22,33,44,55)
 // const new_array=array.flat(Infinity) //it will simply make nested array into a simple array
 // console.log(new_array)
 
-// console.log(Array.isArray("shaqib"))
+// console.log(Array.isArray("shaqib"))//Array.isArray is used to check wether the given input value is array or not
 // console.log(Array.from("hussain")) //it will make the array
 
 // console.log(Array.from({name:"shaqib"})) //intresting
