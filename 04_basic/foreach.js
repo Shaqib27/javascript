@@ -15,7 +15,7 @@ const heros=["spiderman","superman","batman","flash"]
 // }
 // heros.forEach(printme)
 
-// heros.forEach((item,index,arr)=>
+// heros.forEach((item,index,arr)=>   
 // {
 //     console.log(item,index,arr)
 // })
